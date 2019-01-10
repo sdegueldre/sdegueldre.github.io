@@ -1,5 +1,5 @@
 # Samuel Degueldre
-## Junior Web Developer @BeCode
+## Junior Web Developer @BeCode.org
 
 You can check out the live version of this page [here](https://sdegueldre.github.io)
 
