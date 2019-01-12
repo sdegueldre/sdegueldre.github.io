@@ -76,10 +76,11 @@ main > .tagline {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	height: 3.5em;
+	height: 3.5rem;
 }
 
 .icons-social i {
+	font-size: 3rem;
 	width: 4rem;
   height: 4rem;
 	display: inline-flex;
@@ -87,6 +88,7 @@ main > .tagline {
   justify-content: center;
 }
 
+/* these are the icons generated using fontawesome */
 .icons-social i::before {
   transition: font-size 0.15s;
   transition-timing-function: ease-out;
@@ -94,6 +96,19 @@ main > .tagline {
 
 i:hover{
 	font-size: 3.5rem;
+}
+
+/* img icons */
+.icons-social img {
+	height: 3.5rem;
+	width: 3.5rem;
+	transition: width 0.15s, height 0.15s;
+  transition-timing-function: ease-out;
+}
+
+.icons-social img:hover{
+	height: 4rem;
+	width: 4rem;
 }
 
 .devto {
