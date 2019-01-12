@@ -32,6 +32,10 @@ html {
 	font-size: 3em;
 }
 
+.icons-social a {
+	text-decoration: none;
+}
+
 /* Custom Styles */
 
 @keyframes fadein {
