@@ -56,7 +56,7 @@ main {
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	padding: 0 30px;
+	padding: 0 0.5rem;
 	text-align: center;
 	animation-name: fadein;
 
@@ -71,7 +71,7 @@ main > .intro {
 
 main > .tagline {
 	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	margin: 0 0 1rem;
 	font-weight: 100;
 }
 
@@ -124,4 +124,20 @@ i:hover{
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+
+/* Theme */
+
+body {
+	background: #f5911a;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
 }
