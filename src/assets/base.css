@@ -1,0 +1,33 @@
+/* palette */
+:root {
+  --white: #ffffff;
+  --black: #181818;
+
+  --primary: #3095d8;
+  --secondary: #343a41;
+  --gray: #64778a;
+}
+
+/* semantic variables */
+:root {
+  --heading-font: 'Reem Kufi';
+  --color-background: var(--white);
+  --color-text: var(--black);
+  --color-border: var(--secondary);
+  --content-width: 1280px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--black);
+    --color-text: var(--white);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}

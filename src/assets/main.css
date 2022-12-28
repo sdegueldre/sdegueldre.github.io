@@ -1,0 +1,30 @@
+@import './base.css';
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+body > * {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+a, .text-primary {
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font), Roboto, sans-serif;
+}
